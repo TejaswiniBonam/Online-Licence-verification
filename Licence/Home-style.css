@@ -1,0 +1,54 @@
+#logo{
+	height: 100px;
+	margin-right: 400px;
+	display: block;
+}
+body{
+	background-color: #5ea2bf;
+}
+header{
+	background-color: #ffffff;
+	border-radius: 50px;
+	display: flex;
+        /*justify-content: center;
+	text-align: center;*/
+        align-items: center;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	/*maigrin-top: 50px;*/
+}
+
+main img {
+	margin-top: 20px;
+	margin-left: 150px;
+	/*max-width: 50%;*/
+	width: 200px;
+}
+.form{
+	display: flex;
+	background-color: #ffffff;
+	border-radius: 25px;
+	padding: 50px;
+}
+#sub, #res{
+	background-color: #5ea2bf;
+	color: #ffffff;
+	font-size: 1.5em;
+	border-color: #5ea2bf;
+	margin-left: 40px;
+	border-radius: 10px;
+}
+
+#username, #password{
+	font-size: 1.5em;
+}
+#usr, #pwd{
+	font-size: 1.5em;
+}
+input[type="text"], input[type="password"]{
+	border-color: black;
+	border-radius: 40px;
+}
